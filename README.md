@@ -2,6 +2,7 @@ My QMK configs for corne and sofle.
 
 For my future reference, QMK Doctor says:
 
+```
 Ψ QMK Doctor is checking your environment.
 Ψ CLI version: 1.1.2
 Ψ QMK home: /home/rafe/Documents/qmk_2023-12-09/qmk_firmware
@@ -32,3 +33,4 @@ For my future reference, QMK Doctor says:
 Ψ - lib/pico-sdk: 2023-02-12 20:19:37 +0100 --  (a3398d8)
 Ψ - lib/lvgl: 2022-04-11 04:44:53 -0600 --  (e19410f)
 Ψ QMK is ready to go, but minor problems were found
+```
