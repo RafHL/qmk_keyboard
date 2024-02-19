@@ -17,11 +17,14 @@ $ make crkbd:Rafael:dfu-split-left
 ```
 
 For Pro Micro Sofle, use:
+```
 sudo apt install avrdude
 make sofle:Rafael:avrdude-split-left
 make sofle:Rafael:avrdude-split-right
+```
 
 If you want to use the default keymap, use sofle:default:...
+
 In general, use <Keyboard>:<Keymap>:<bootloader>-split-<left or right>
 
 
