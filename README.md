@@ -23,9 +23,9 @@ $ make sofle:Rafael:avrdude-split-left
 $ make sofle:Rafael:avrdude-split-right
 ```
 
-If you want to use the default keymap, use sofle:default:...
+If you want to use the default keymap, use `sofle:default:...`
 
-In general, use <Keyboard>:<Keymap>:<bootloader>-split-<left or right>
+In general, use `<Keyboard>:<Keymap>:<bootloader>-split-<left or right>`
 
 
 
