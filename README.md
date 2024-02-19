@@ -1,5 +1,32 @@
 My QMK configs for corne and sofle.
 
+
+I installed everything onto NB PC using:
+1998 cd Downloads/
+2001 mkdir qmk_firmware
+2002 cd qmk_firmware/
+2004 git clone https://github.com/qmk/qmk_firmware
+2006 git clone https://github.com/RafHL/qmk_keyboard
+2012 mv qmk_keyboard/crkbd/keymaps/Rafael/ qmk_firmware/keyboards/crkbd/keymaps/Rafael
+2026 python3 -m pip install --user qmk
+2027 qmk hello
+2030 sudo apt install dfu-programmer
+2031 make crkbd:Rafael:dfu-split-right
+2032 make crkbd:Rafael:dfu-split-left
+
+For Pro Micro Sofle, use:
+sudo apt install avrdude
+make sofle:Rafael:avrdude-split-left
+make sofle:Rafael:avrdude-split-right
+
+If you want to use the default keymap, use sofle:default:...
+In general, use <Keyboard>:<Keymap>:<bootloader>-split-<left or right>
+
+
+
+
+
+
 For my future reference, QMK Doctor says:
 
 ```
